@@ -1,0 +1,135 @@
+*{
+  maargin:0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aquamarine;
+}
+
+
+html,
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.parent{
+  height: 300vh;
+  width: 300vh;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  
+}
+.card{
+height: 320px;
+width: 250px;
+background-color: white;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin: 0;
+padding: 20px;
+padding-top: 10px;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:20px ;
+  padding: 20px;
+  
+}
+
+.center h3{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+
+}
+
+.center h3 span{
+font-size: 14px;
+font-weight: 400;
+color: #afa2a2;
+padding: 3px;}
+
+
+.center h2{
+  font-size: 22px;
+  margin: 6px;
+}
+
+.center .tag{
+  display: flex;
+  gap:5px ;
+  padding-bottom: 2px;
+
+}
+
+.center .tag h4{
+  font-size: 14px;
+  background-color: rgb(221, 219, 219);
+  padding: 5px 8px;
+color: rgb(53, 50, 50);
+font-weight: 550;
+border-radius: 4px;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+
+.top img{
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 2px solid #e1e4c2;
+  padding: 6px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 2px solid #afa2a2;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #afa2a2;
+  
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #e8e8dc;
+  margin-top: 20px;
+}
+
+.bottom button{
+  background-color: black;
+  color: white;
+  padding:8px 14px;
+  border:none;
+  border-radius:5px;
+  margin-top: 10px;
+}
+
+.bottom h3{
+  font-size: 17px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.bottom p{
+  font-size: 300;
+  margin: 0;
+  color: #afa2a2;
+}
+
