@@ -96,6 +96,7 @@ margin-bottom: 30px;
 .top img:hover {
   transform: scale(1.5); /* zoom 1.5x */
   cursor: pointer;  
+}
 
 .top button{
   display: flex;
