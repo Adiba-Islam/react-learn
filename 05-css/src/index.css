@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+html,
+body{
+  height: 100vh;
+  background: #011a1f;
+  color: rgb(139, 16, 16);
+}
+
+.button{
+  background-color: rgb(205, 153, 117);
+  display: flex;
+  color: rgb(236, 224, 209);
+  font-family: sans-serif;
+  padding: 4px;
+  margin: 10px auto;
+  box-shadow: 14px #07424e;
+  border-radius: 10px;
+  
+
+  
+}

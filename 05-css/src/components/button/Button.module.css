@@ -1,0 +1,8 @@
+.btn{
+  background-color: rgb(132, 96, 52);
+  color: aqua;
+  width: fit-content;
+  padding: 10px 40px;
+  border: 5px double rgb(204, 213, 195);
+  margin: 10px auto;
+}

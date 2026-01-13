@@ -1,0 +1,10 @@
+.head{
+  background-color: rgb(53, 174, 199);
+  width: fit-content;
+  display: flex;
+  padding: 14px 20px;
+  margin: 25px auto;
+  border-radius: 20px;
+  color: #ecefe4;
+
+}
